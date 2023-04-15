@@ -5,6 +5,12 @@
     "micro-frontend-1",
     "micro-frontend-2"
   ],
+  "scripts": {
+    "build:all": "cd root-config && yarn build && cd ../micro-frontend-1 && yarn build && cd ../micro-frontend-2 && yarn build",
+    "start:all": "cd root-config && yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
   "repository": "https://github.com/jeanc18rlos/gatsby-mfe.git",
   "author": "Jean <jrojastechnology@gmail.com>",
   "license": "MIT"
