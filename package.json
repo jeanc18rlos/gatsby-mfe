@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "root-config",
+    "micro-frontend-1",
+    "micro-frontend-2"
+  ],
+  "repository": "https://github.com/jeanc18rlos/gatsby-mfe.git",
+  "author": "Jean <jrojastechnology@gmail.com>",
+  "license": "MIT"
+}
